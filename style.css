@@ -1,0 +1,29 @@
+.aqichart {
+  cursor: pointer;
+}
+
+.sport hr {
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  margin-top: 100px;
+}
+
+.img_modal {
+  display: inline-block;
+}
+.p_modal {
+  margin-top: 10px;
+}
+.modal-body {
+  text-align: center;
+}
+h4 {
+  line-height: 4;
+  font-size: 25px;
+}
+#aqipic {
+  width: 750px;
+  height: 750px;
+}

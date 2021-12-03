@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Air Pollution</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div
+        class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        id="aqichart"
+      >
+        <h2 class="text-capitalize">air pollution</h2>
+      </div>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3>AQI</h3>
+        <h4>
+          <mark>
+            An Air Quality Index is used by government agencies to communicate
+            to the public how polluted the air currently is or how polluted it
+            is forecast to become. Public health risks increase as the AQI
+            rises. Different countries have their own air quality indices,
+            corresponding to different national air quality standards.
+          </mark>
+        </h4>
+      </div>
+
+      <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2>AQI Chart</h2>
+      </div>
+      <div
+        class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport"
+        data-toggle="modal"
+        data-target="#aqi"
+      >
+        <img
+          src="https://static.toiimg.com/thumb/msid-87594233,imgsize-100572,width-400,resizemode-4/87594233.jpg"
+          id="aqipic"
+        />
+        <hr />
+        <p class="text-primary">AQI Chart</p>
+      </div>
+      <div class="modal fade" id="aqi">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">AQI Chart</h4>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://static.toiimg.com/thumb/msid-87594233,imgsize-100572,width-400,resizemode-4/87594233.jpg"
+                class="img-responsive img_modal"
+              />
+              <p class="p_modal">
+                <a
+                  href="https://timesofindia.indiatimes.com/city/gurgaon/break-from-severe-pollution-due-to-wind-but-gurgaons-aqi-is-still-very-poor/articleshow/87594234.cms"
+                  ><b>More information about AQI...</b></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
